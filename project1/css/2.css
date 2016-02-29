@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    font-family:"Courier New", Courier, monospace
+}
+
+h1 {
+    text-align: center; 
+}
+
+
+.button {
+    background-color: rgba(0, 0, 0, 0.80); /* Black */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+}
+
+body {
+    background-color: rgba(238, 191, 230, 0.98);
+}
+
+/* unvisited link */
+a:link {
+    color: rgba(238, 191, 230, 0.98); 
+}
+
+/* visited link */
+a:visited {
+    color: rgba(255, 255, 255, 1)
+}
+
+/* mouse over link */
+a:hover {
+    color: rgba(240, 173, 255, 0.92)
+}
+
+/* selected link */
+a:active { 
+    color: rgba(79, 0, 97, 0.92)
+}
+
+
+

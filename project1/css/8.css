@@ -1,0 +1,57 @@
+/* CSS Document */
+
+body {
+    font-family:"Courier New", Courier, monospace
+}
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:1020px;
+    width:100px;
+    float:left;
+    padding:5px; 
+}
+
+#section {
+    width:950px;
+    float:left;
+    padding:10px; 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+
+body {
+    background-color: rgba(238, 191, 230, 0.98);
+}
+
+/* unvisited link */
+a:link {
+    color: rgba(79, 0, 97, 0.92);  
+}
+
+/* visited link */
+a:visited {
+    color: rgba(255, 255, 255, 1)
+}
+
+/* mouse over link */
+a:hover {
+    color: rgba(0, 0, 0, 1)
+}
+
+/* selected link */
+a:active { 
+    color: rgba(238, 191, 230, 0.98);
+}

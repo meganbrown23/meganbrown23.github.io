@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    font-family:"CourierNew", Courier, monospace
+}
+
+h3 {
+    text-align: center; color: white;
+}
+
+h1 {
+    text-align: center; color: white;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+/* unvisited link */
+a:link {
+    color: rgba(238, 191, 230, 0.98); 
+}
+
+/* visited link */
+a:visited {
+    color: rgba(79, 0, 97, 0.92)
+}
+
+/* mouse over link */
+a:hover {
+    color: rgba(0, 0, 0, 1)
+}
+
+/* selected link */
+a:active { 
+    color: rgba(255, 255, 255, 1)
+}

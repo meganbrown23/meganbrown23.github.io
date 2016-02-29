@@ -1,0 +1,82 @@
+/* CSS Document */
+
+body {
+    font-family:"Courier New", Courier, monospace
+}
+
+h1 {
+    text-align: center; 
+}
+p{
+	text-align:center; font-size: 64px;
+}
+
+
+	#popupBoxOnePosition{
+				top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+				background-color: rgba(0,0,0,0.7); display: none;
+			}
+			.popupBoxWrapper{
+				width: 550px; margin: 50px auto; text-align: left;
+			}
+			.popupBoxContent{
+				background-color: #FFF; padding: 15px;
+			}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.80); /* Black */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 36px;
+}
+
+body {
+    background-color: rgba(238, 191, 230, 0.98);
+}
+
+
+h1 {
+    background-color: rgba(185, 182, 184, 0.85); 
+}
+
+/* unvisited link */
+a:link {
+    color: rgba(0, 0, 0, 1);
+}
+
+/* visited link */
+a:visited {
+    color: rgba(70, 25, 50, 0.98);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgba(238, 191, 230, 0.98);
+}
+
+/* selected link */
+a:active {
+    color: rgba(252, 243, 250, 0.87);
+}
+
+html {
+    height: 100%
+}
+body {
+    background-attachment: fixed
+}
+body {
+    font-family:"Courier New", Courier, monospace
+background: rgba(252,236,252,1);
+background: -moz-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 25%, rgba(255,124,216,1) 46%, rgba(255,124,216,1) 58%, rgba(253,137,215,1) 68%, rgba(251,166,225,1) 81%, rgba(251,166,225,1) 99%, rgba(251,166,225,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252,236,252,1)), color-stop(25%, rgba(251,166,225,1)), color-stop(46%, rgba(255,124,216,1)), color-stop(58%, rgba(255,124,216,1)), color-stop(68%, rgba(253,137,215,1)), color-stop(81%, rgba(251,166,225,1)), color-stop(99%, rgba(251,166,225,1)), color-stop(100%, rgba(251,166,225,1)));
+background: -webkit-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 25%, rgba(255,124,216,1) 46%, rgba(255,124,216,1) 58%, rgba(253,137,215,1) 68%, rgba(251,166,225,1) 81%, rgba(251,166,225,1) 99%, rgba(251,166,225,1) 100%);
+background: -o-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 25%, rgba(255,124,216,1) 46%, rgba(255,124,216,1) 58%, rgba(253,137,215,1) 68%, rgba(251,166,225,1) 81%, rgba(251,166,225,1) 99%, rgba(251,166,225,1) 100%);
+background: -ms-linear-gradient(top, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 25%, rgba(255,124,216,1) 46%, rgba(255,124,216,1) 58%, rgba(253,137,215,1) 68%, rgba(251,166,225,1) 81%, rgba(251,166,225,1) 99%, rgba(251,166,225,1) 100%);
+background: linear-gradient(to bottom, rgba(252,236,252,1) 0%, rgba(251,166,225,1) 25%, rgba(255,124,216,1) 46%, rgba(255,124,216,1) 58%, rgba(253,137,215,1) 68%, rgba(251,166,225,1) 81%, rgba(251,166,225,1) 99%, rgba(251,166,225,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#fba6e1', GradientType=0 );
+}
